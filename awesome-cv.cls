@@ -85,7 +85,13 @@
 % Needed to improve tables for subentry
 \RequirePackage{multirow}
 % Needed to deal hyperlink
-\RequirePackage[hidelinks,unicode,pdfpagelabels=false]{hyperref}
+\RequirePackage[
+  pdfa=true,
+  pdfversion=2.0,
+  hidelinks,
+  unicode,
+  pdfpagelabels=false
+]{hyperref}
 \hypersetup{%
   pdftitle={},
   pdfauthor={},
